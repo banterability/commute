@@ -1,0 +1,14 @@
+{
+  "name": "commute",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "dateline": "^1.1.0",
+    "underscore": "^1.6.0"
+  },
+  "description": "Which way to work?",
+  "main": "index.coffee",
+  "author": "Jeff Long",
+  "license": "MIT"
+}
