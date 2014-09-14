@@ -12,12 +12,6 @@ class DirectionsAPI
       json: true
 
     request options, (err, res, body) ->
-      return callback err, null if err?
-
-      overview = body.routes[0].legs[0]
-      distance = overview.distance.text
-      duration = overview.duration.text
-
-      callback null, {distance, duration}
+      callback err, body
 
 module.exports = DirectionsAPI
